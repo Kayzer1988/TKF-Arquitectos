@@ -38,18 +38,18 @@ const projects=[
     rubro:'Agroquímicos',programa:'Pabellón Expo agro',
     year:'2019',m2:225,estado:'Construido',
     autores:'TKF ARQUITECTOS',colaboradores:null,
-    cat:'comercial',
-    cover:'images/comercial/brevant/1.png',
-    gallery:['images/comercial/brevant/1.png','images/comercial/brevant/2.jpg','images/comercial/brevant/3.jpg','images/comercial/brevant/4.jpg','images/comercial/brevant/5.jpg','images/comercial/brevant/6.jpg','images/comercial/brevant/7.jpg','images/comercial/brevant/8.jpg']
+    cat:'otros',
+    cover:'images/otros/brevant/1.png',
+    gallery:['images/otros/brevant/1.png','images/otros/brevant/2.jpg','images/otros/brevant/3.jpg','images/otros/brevant/4.jpg','images/otros/brevant/5.jpg','images/otros/brevant/6.jpg','images/otros/brevant/7.jpg','images/otros/brevant/8.jpg']
   },
   {
     id:'corteva',num:'002',name:'Corteva',
     rubro:'Agroquímicos',programa:'Pabellón Expo agro',
     year:'2020',m2:150,estado:'Construido',
     autores:'TKF ARQUITECTOS',colaboradores:null,
-    cat:'comercial',
-    cover:'images/comercial/corteva/1.jpg',
-    gallery:['images/comercial/corteva/1.jpg','images/comercial/corteva/2.jpg','images/comercial/corteva/3.jpg','images/comercial/corteva/4.jpg','images/comercial/corteva/5.jpg','images/comercial/corteva/6.jpg','images/comercial/corteva/7.jpg']
+    cat:'otros',
+    cover:'images/otros/corteva/1.jpg',
+    gallery:['images/otros/corteva/1.jpg','images/otros/corteva/2.jpg','images/otros/corteva/3.jpg','images/otros/corteva/4.jpg','images/otros/corteva/5.jpg','images/otros/corteva/6.jpg','images/otros/corteva/7.jpg']
   },
   {
     id:'momentum',num:'003',name:'Momentum Capital Investment',
@@ -68,15 +68,6 @@ const projects=[
     cat:'comercial',
     cover:'images/comercial/xonica-argentina/cover.jpg',
     gallery:['images/comercial/xonica-argentina/01.jpg','images/comercial/xonica-argentina/02.jpg','images/comercial/xonica-argentina/03.jpg','images/comercial/xonica-argentina/04.jpg','images/comercial/xonica-argentina/05.jpg','images/comercial/xonica-argentina/06.jpg','images/comercial/xonica-argentina/07.jpg','images/comercial/xonica-argentina/08.jpg','images/comercial/xonica-argentina/09.jpg','images/comercial/xonica-argentina/10.jpg']
-  },
-  {
-    id:'rever',num:'005',name:'Rever Pass Unicenter',
-    rubro:'Textil',programa:'Local comercial Unicenter',
-    year:'2025',m2:90,estado:'Construido',
-    autores:'TKF ARQUITECTOS',colaboradores:null,
-    cat:'comercial',
-    cover:'images/comercial/rever-pass-unicenter/01.jpeg',
-    gallery:['images/comercial/rever-pass-unicenter/01.jpeg','images/comercial/rever-pass-unicenter/02.jpeg','images/comercial/rever-pass-unicenter/03.jpeg','images/comercial/rever-pass-unicenter/04.jpeg','images/comercial/rever-pass-unicenter/05.jpeg','images/comercial/rever-pass-unicenter/06.jpg','images/comercial/rever-pass-unicenter/07.jpg','images/comercial/rever-pass-unicenter/08.jpg','images/comercial/rever-pass-unicenter/09.jpg','images/comercial/rever-pass-unicenter/10.jpg','images/comercial/rever-pass-unicenter/11.jpg']
   },
   {
     id:'aiwa',num:'006',name:'Aiwa, Tivoli y San Up',
@@ -101,18 +92,26 @@ const projects=[
     rubro:'Logística integral y supply chain',programa:'Oficinas corporativas',
     year:'2025',m2:210,estado:'Construido',
     autores:'TKF ARQUITECTOS',colaboradores:null,
-    cat:'comercial',
-    cover:'images/comercial/tau-operaciones-logisticas/1.jpg',
-    gallery:['images/comercial/tau-operaciones-logisticas/1.jpg','images/comercial/tau-operaciones-logisticas/2.jpeg','images/comercial/tau-operaciones-logisticas/3.jpeg','images/comercial/tau-operaciones-logisticas/4.jpeg','images/comercial/tau-operaciones-logisticas/5.jpeg']
+    cat:'otros',
+    cover:'images/otros/tau-operaciones-logisticas/1.jpg',
+    gallery:['images/otros/tau-operaciones-logisticas/1.jpg','images/otros/tau-operaciones-logisticas/2.jpeg','images/otros/tau-operaciones-logisticas/3.jpeg','images/otros/tau-operaciones-logisticas/4.jpeg','images/otros/tau-operaciones-logisticas/5.jpeg']
   },
   {
     id:'milkaut',num:'009',name:'Milkaut',
     rubro:'Agroindustria e industria láctea',programa:'Pabellón expo alimentaria',
     year:'2025',m2:90,estado:'Construido',
     autores:'TKF ARQUITECTOS',colaboradores:null,
-    cat:'comercial',
-    cover:'images/comercial/milkaut/1.jpeg',
-    gallery:['images/comercial/milkaut/1.jpeg','images/comercial/milkaut/2.jpeg','images/comercial/milkaut/3.jpg']
+    cat:'otros',
+    cover:'images/otros/milkaut/1.jpeg',
+    gallery:['images/otros/milkaut/1.jpeg','images/otros/milkaut/2.jpeg','images/otros/milkaut/3.jpg']
+  },
+  {
+    id:'la-rural-arbol',num:'024',name:'La Rural Árbol',
+    rubro:'Exposición',programa:'Instalación La Rural',
+    year:'2026',m2:null,estado:'Proyecto',
+    autores:'TKF ARQUITECTOS',colaboradores:null,
+    cat:'otros',
+    cover:'',gallery:[]
   },
   {
     id:'sigma-tecnica',num:'010',name:'Sigma Agro — Área Técnica y Marketing',
@@ -132,102 +131,110 @@ const projects=[
     cover:'images/comercial/sigma-agro-gerenciales/1.jpeg',
     gallery:['images/comercial/sigma-agro-gerenciales/1.jpeg','images/comercial/sigma-agro-gerenciales/2.jpeg']
   },
+  {
+    id:'consultorios-del-carmen',num:'023',name:'Consultorios Del Carmen',
+    rubro:'Salud',programa:'Consultorios médicos',
+    year:'2026',m2:null,estado:'Proyecto',
+    autores:'TKF ARQUITECTOS',colaboradores:null,
+    cat:'comercial',
+    cover:'',gallery:[]
+  },
   // ── VIVIENDAS ──
   {
     id:'casa-de-los-abuelos-ayres-del-pilar',num:'012',name:'Casa De Los Abuelos',
-    rubro:'Vivienda unifamiliar',programa:'Vivienda',ubicacion:'La Cañada, Ayres del Pilar',
+    rubro:'Residencial unifamiliar',programa:'Residencial',ubicacion:'La Cañada, Ayres del Pilar',
     year:'2017',m2:240,m2semi:40,estado:'Construida',
     autores:'TKF ARQUITECTOS',colaboradores:null,
-    cat:'vivienda',
+    cat:'residencial',
     cover:'images/viviendas/casa-de-los-abuelos-ayres-del-pilar/1.jpg',
     gallery:['images/viviendas/casa-de-los-abuelos-ayres-del-pilar/1.jpg','images/viviendas/casa-de-los-abuelos-ayres-del-pilar/2.jpg','images/viviendas/casa-de-los-abuelos-ayres-del-pilar/3.jpg','images/viviendas/casa-de-los-abuelos-ayres-del-pilar/4.jpg','images/viviendas/casa-de-los-abuelos-ayres-del-pilar/5.jpg','images/viviendas/casa-de-los-abuelos-ayres-del-pilar/6.jpg','images/viviendas/casa-de-los-abuelos-ayres-del-pilar/7.jpg','images/viviendas/casa-de-los-abuelos-ayres-del-pilar/8.jpg']
   },
   {
     id:'casa-jm',num:'013',name:'Casa J.M',
-    rubro:'Vivienda unifamiliar',programa:'Vivienda',ubicacion:'C11, Ayres Plaza',
+    rubro:'Residencial unifamiliar',programa:'Residencial',ubicacion:'C11, Ayres Plaza',
     year:'2021',m2:246,m2semi:72,estado:'Construida',
     autores:'TKF ARQUITECTOS',colaboradores:null,
-    cat:'vivienda',
+    cat:'residencial',
     cover:'images/viviendas/casa-jm/1.jpg',
     gallery:['images/viviendas/casa-jm/1.jpg','images/viviendas/casa-jm/2.jpg','images/viviendas/casa-jm/3.jpg','images/viviendas/casa-jm/4.jpg','images/viviendas/casa-jm/5.jpg','images/viviendas/casa-jm/6.jpg','images/viviendas/casa-jm/7.jpg']
   },
   {
     id:'casa-cm',num:'014',name:'Casa C.M',
-    rubro:'Vivienda unifamiliar',programa:'Vivienda',ubicacion:'Ayres Plaza',
+    rubro:'Residencial unifamiliar',programa:'Residencial',ubicacion:'Ayres Plaza',
     year:'2022',m2:246,m2semi:72,estado:'Construida',
     autores:'TKF ARQUITECTOS',colaboradores:null,
-    cat:'vivienda',
+    cat:'residencial',
     cover:'images/viviendas/casa-cm/1.jpg',
     gallery:['images/viviendas/casa-cm/1.jpg','images/viviendas/casa-cm/2.jpg','images/viviendas/casa-cm/3.jpg','images/viviendas/casa-cm/4.jpg','images/viviendas/casa-cm/5.jpg','images/viviendas/casa-cm/6.jpg']
   },
   {
     id:'casa-vm',num:'015',name:'Casa V.M',
-    rubro:'Vivienda unifamiliar',programa:'Vivienda',ubicacion:'C10, Ayres Plaza',
+    rubro:'Residencial unifamiliar',programa:'Residencial',ubicacion:'C10, Ayres Plaza',
     year:'2025',m2:268,m2semi:56,estado:'Construida',
     autores:'TKF ARQUITECTOS',colaboradores:null,
-    cat:'vivienda',
+    cat:'residencial',
     cover:'images/viviendas/casa-vm/1.jpg',
     gallery:['images/viviendas/casa-vm/1.jpg','images/viviendas/casa-vm/2.jpg','images/viviendas/casa-vm/3.jpg','images/viviendas/casa-vm/4.png','images/viviendas/casa-vm/5.jpg','images/viviendas/casa-vm/6.png','images/viviendas/casa-vm/7.png']
   },
   {
     id:'casa-canada-ayres-del-pilar',num:'016',name:'Casa Cañada',
-    rubro:'Vivienda unifamiliar',programa:'Vivienda',ubicacion:'La Cañada, Ayres del Pilar',
+    rubro:'Residencial unifamiliar',programa:'Residencial',ubicacion:'La Cañada, Ayres del Pilar',
     year:'2025',m2:275,m2semi:28,estado:'Construida',
     autores:'TKF ARQUITECTOS',colaboradores:'Galpón 8',
-    cat:'vivienda',
+    cat:'residencial',
     cover:'images/viviendas/casa-canada-ayres-del-pilar/1.jpg',
     gallery:['images/viviendas/casa-canada-ayres-del-pilar/1.jpg','images/viviendas/casa-canada-ayres-del-pilar/2.jpg','images/viviendas/casa-canada-ayres-del-pilar/3.jpg','images/viviendas/casa-canada-ayres-del-pilar/4.jpg','images/viviendas/casa-canada-ayres-del-pilar/5.jpg']
   },
   {
     id:'casa-costa',num:'017',name:'Casa Costa',
-    rubro:'Vivienda unifamiliar',programa:'Vivienda',ubicacion:'Costa Esmeralda',
+    rubro:'Residencial unifamiliar',programa:'Residencial',ubicacion:'Costa Esmeralda',
     year:'2022',m2:209,m2semi:55,estado:'Construida',
     autores:'TKF ARQUITECTOS',colaboradores:null,
-    cat:'vivienda',
+    cat:'residencial',
     cover:'images/viviendas/casa-costa/1.jpg',
     gallery:['images/viviendas/casa-costa/1.jpg','images/viviendas/casa-costa/2.jpg','images/viviendas/casa-costa/3.jpg','images/viviendas/casa-costa/4.jpg','images/viviendas/casa-costa/5.jpg','images/viviendas/casa-costa/6.jpg']
   },
   {
     id:'casa-highland',num:'018',name:'Casa Highland',
-    rubro:'Vivienda unifamiliar',programa:'Vivienda',ubicacion:'Albino, Highland Park',
+    rubro:'Residencial unifamiliar',programa:'Residencial',ubicacion:'Albino, Highland Park',
     year:'2026',m2:181,m2semi:63,estado:'Construida',
     autores:'TKF ARQUITECTOS',colaboradores:null,
-    cat:'vivienda',
+    cat:'residencial',
     cover:'',gallery:[]
   },
   {
     id:'casa-grillo',num:'019',name:'Casa Grillo',
-    rubro:'Vivienda unifamiliar',programa:'Vivienda',ubicacion:'Cardenal del monte, General Rodriguez',
+    rubro:'Residencial unifamiliar',programa:'Residencial',ubicacion:'Cardenal del monte, General Rodriguez',
     year:'2026',m2:165,m2semi:42,estado:'En ejecución',
     autores:'TKF ARQUITECTOS',colaboradores:null,
-    cat:'vivienda',
+    cat:'residencial',
     cover:'images/viviendas/casa-grillo/1.png',
     gallery:['images/viviendas/casa-grillo/1.png']
   },
   {
     id:'casa-a-v',num:'020',name:'Casa A.V',
-    rubro:'Vivienda unifamiliar',programa:'Vivienda',ubicacion:'Cardos de Pilar',
+    rubro:'Residencial unifamiliar',programa:'Residencial',ubicacion:'Cardos de Pilar',
     year:'2026',m2:219,m2semi:34,estado:'En ejecución',
     autores:'TKF ARQUITECTOS',colaboradores:'Arq. Clara Gimenez Zapiola',
-    cat:'vivienda',
+    cat:'residencial',
     cover:'images/viviendas/casa-a-v/1.png',
     gallery:['images/viviendas/casa-a-v/1.png','images/viviendas/casa-a-v/2.jpeg']
   },
   {
     id:'casa-l-o',num:'021',name:'Casa L.O',
-    rubro:'Vivienda unifamiliar',programa:'Vivienda',ubicacion:'Cardos de Pilar',
+    rubro:'Residencial unifamiliar',programa:'Residencial',ubicacion:'Cardos de Pilar',
     year:'2026',m2:205,m2semi:79,estado:'En ejecución',
     autores:'TKF ARQUITECTOS',colaboradores:null,
-    cat:'vivienda',
+    cat:'residencial',
     cover:'images/viviendas/casa-l-o/1.png',
     gallery:['images/viviendas/casa-l-o/1.png','images/viviendas/casa-l-o/2.png']
   },
   {
     id:'casa-robles',num:'022',name:'Casa Robles',
-    rubro:'Vivienda unifamiliar',programa:'Vivienda',ubicacion:'Parada Robles',
+    rubro:'Residencial unifamiliar',programa:'Residencial',ubicacion:'Parada Robles',
     year:'2026',m2:104,m2semi:23,estado:'En ejecución',
     autores:'TKF ARQUITECTOS',colaboradores:null,
-    cat:'vivienda',
+    cat:'residencial',
     cover:'images/viviendas/casa-robles/1.jpg',
     gallery:['images/viviendas/casa-robles/1.jpg','images/viviendas/casa-robles/2.jpg']
   }
@@ -242,13 +249,11 @@ const projects=[
     'images/carrousel/1.jpg',
     'images/carrousel/2.jpg',
     'images/carrousel/3.jpg',
-    'images/carrousel/4.png',
-    'images/carrousel/5.jpg',
+    'images/carrousel/4.jpg',
+    'images/carrousel/5.png',
     'images/carrousel/6.jpg',
     'images/carrousel/7.jpg',
-    'images/carrousel/8.jpg',
-    'images/carrousel/9.png',
-    'images/carrousel/10.jpg'
+    'images/carrousel/8.jpg'
   ];
 
   carImages.forEach((img,i)=>{
@@ -301,10 +306,10 @@ window.addEventListener('DOMContentLoaded',renderHomeGrid);
 
 // ── LISTA DE PROYECTOS ──
 function renderP(cat){
-  const f=cat==='todos'?projects:projects.filter(p=>p.cat===cat);
-  document.getElementById('plist-dark').innerHTML=f.map(p=>`
+  const f=(cat==='todos'?projects:projects.filter(p=>p.cat===cat)).slice().sort((a,b)=>parseInt(a.num)-parseInt(b.num));
+  document.getElementById('plist-dark').innerHTML=f.map((p,i)=>`
     <div class="plist-item" onclick="openProyecto('${p.id}')">
-      <div class="pl-num">${p.num}</div>
+      <div class="pl-num">${cat==='todos'?p.num:String(i+1).padStart(3,'0')}</div>
       <div class="pl-thumb" style="background-image:url('${p.cover}')">
         <img class="bg-fallback-img" src="${p.cover}" alt="${p.name}" decoding="async">
       </div>
@@ -318,7 +323,6 @@ function renderP(cat){
         </div>
       </div>
       <div class="pl-autores">${p.autores}${p.colaboradores?'<span class="pl-colab"><span class="pl-colab-label">Colaboradora</span>'+p.colaboradores+'</span>':''}</div>
-      <div class="pl-year">${p.year}</div>
     </div>`).join('');
   bindCursor(document.getElementById('plist-dark'));
 }
@@ -356,7 +360,6 @@ function openProyecto(id){
         <div class="py-ficha">
           <div class="py-campo"><span class="py-label">Rubro</span><span class="py-val">${p.rubro}</span></div>
           ${p.ubicacion?`<div class="py-campo"><span class="py-label">Ubicación</span><span class="py-val">${p.ubicacion}</span></div>`:`<div class="py-campo"><span class="py-label">Programa</span><span class="py-val">${p.programa}</span></div>`}
-          <div class="py-campo"><span class="py-label">Año</span><span class="py-val">${p.year}</span></div>
           ${p.m2?`<div class="py-campo"><span class="py-label">${p.m2semi?'Sup. cubierta':'Superficie'}</span><span class="py-val">${p.m2} m²</span></div>`:''}
           ${p.m2semi?`<div class="py-campo"><span class="py-label">Sup. semicubierta</span><span class="py-val">${p.m2semi} m²</span></div>`:''}
           <div class="py-campo"><span class="py-label">Estado</span><span class="py-val"><span class="py-estado ${p.estado==='Construido'||p.estado==='Construida'?'estado-construido':'estado-proyecto'}">${p.estado}</span></span></div>
