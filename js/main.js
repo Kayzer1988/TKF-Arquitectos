@@ -306,10 +306,17 @@ window.addEventListener('DOMContentLoaded',renderHomeGrid);
 
 // ── LISTA DE PROYECTOS ──
 function renderP(cat){
-  const f=(cat==='todos'?projects:projects.filter(p=>p.cat===cat)).slice().sort((a,b)=>parseInt(a.num)-parseInt(b.num));
+  const catOrder={comercial:0,residencial:1,otros:2};
+  const f=(cat==='todos'?projects:projects.filter(p=>p.cat===cat)).slice().sort((a,b)=>{
+    if(cat==='todos'){
+      const co=catOrder[a.cat]-catOrder[b.cat];
+      if(co!==0)return co;
+    }
+    return parseInt(a.num)-parseInt(b.num);
+  });
   document.getElementById('plist-dark').innerHTML=f.map((p,i)=>`
     <div class="plist-item" onclick="openProyecto('${p.id}')">
-      <div class="pl-num">${cat==='todos'?p.num:String(i+1).padStart(3,'0')}</div>
+      <div class="pl-num">${String(i+1).padStart(3,'0')}</div>
       <div class="pl-thumb" style="background-image:url('${p.cover}')">
         <img class="bg-fallback-img" src="${p.cover}" alt="${p.name}" decoding="async">
       </div>
