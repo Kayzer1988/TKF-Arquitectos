@@ -137,7 +137,8 @@ const projects=[
     year:'2026',m2:null,estado:'Proyecto',
     autores:'TKF ARQUITECTOS',colaboradores:null,
     cat:'comercial',
-    cover:'',gallery:[]
+    cover:'images/comercial/consultorios-del-carmen/1.jpeg',
+    gallery:['images/comercial/consultorios-del-carmen/1.jpeg','images/comercial/consultorios-del-carmen/2.jpeg','images/comercial/consultorios-del-carmen/3.jpeg','images/comercial/consultorios-del-carmen/4.jpeg']
   },
   // ── VIVIENDAS ──
   {
