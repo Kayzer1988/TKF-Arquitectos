@@ -210,7 +210,7 @@ const projects=[
     autores:'TKF ARQUITECTOS',colaboradores:null,
     cat:'residencial',
     cover:'images/viviendas/casa-grillo/1.jpg',
-    gallery:['images/viviendas/casa-grillo/1.jpg','images/viviendas/casa-grillo/1.png']
+    gallery:['images/viviendas/casa-grillo/1.jpg','images/viviendas/casa-grillo/2.png']
   },
   {
     id:'casa-a-v',num:'020',name:'Casa A.V',
