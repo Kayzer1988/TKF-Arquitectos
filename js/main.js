@@ -17,8 +17,19 @@ window.addEventListener('scroll',()=>document.getElementById('nav').classList.to
 window.addEventListener('popstate',e=>{
   const s=e.state;
   if(!s){go('home',false);return;}
-  if(s.page==='proyecto'){openProyecto(s.id,false);}
-  else{go(s.page,false);}
+  if(s.page==='proyecto'){
+    openProyecto(s.id,false);
+  } else if(s.page==='proyectos'){
+    go('proyectos',false);
+    const cat=s.cat||'todos';
+    lastCat=cat;
+    renderP(cat);
+    document.querySelectorAll('.fbtn').forEach(b=>b.classList.remove('active'));
+    const btn=document.querySelector(`.fbtn[onclick*="${cat}"]`);
+    if(btn)btn.classList.add('active');
+  } else {
+    go(s.page,false);
+  }
 });
 
 window.addEventListener('DOMContentLoaded',()=>{
@@ -47,7 +58,7 @@ function go(id, pushState=true){
     if(todosBtn)todosBtn.classList.add('active');
     renderP('todos');
   }
-  if(pushState) history.pushState({page:id},'','#'+id);
+  if(pushState) history.pushState(id==='proyectos'?{page:id,cat:'todos'}:{page:id},'','#'+id);
   initReveal();
 }
 
@@ -360,6 +371,7 @@ function fp(btn,cat){
   btn.classList.add('active');
   lastCat=cat;
   renderP(cat);
+  history.replaceState({page:'proyectos',cat},'','#proyectos');
 }
 function goBack(){
   const cat=lastCat;
