@@ -413,7 +413,7 @@ function openProyecto(id, pushState=true){
   `;
   lbImages=p.gallery;
   bindCursor(page);
-  go('proyecto');
+  go('proyecto', false);
 }
 
 function openLb(i){
