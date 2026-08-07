@@ -237,7 +237,7 @@ const projects=[
     autores:'TKF ARQUITECTOS',colaboradores:null,
     cat:'residencial',
     cover:'images/viviendas/casa-robles/1.jpg',
-    gallery:['images/viviendas/casa-robles/1.jpg','images/viviendas/casa-robles/2.jpg']
+    gallery:['images/viviendas/casa-robles/1.jpg','images/viviendas/casa-robles/2.jpg','images/viviendas/casa-robles/3.jpg']
   }
 ];
 
