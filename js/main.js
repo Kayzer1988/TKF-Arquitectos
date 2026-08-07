@@ -51,7 +51,7 @@ function go(id, pushState=true){
   document.querySelectorAll('.nav-links a').forEach(a=>a.classList.remove('active'));
   const el=document.getElementById('n-'+id);
   if(el)el.classList.add('active');
-  if(id==='proyectos'){
+  if(id==='proyectos' && pushState){
     lastCat='todos';
     document.querySelectorAll('.fbtn').forEach(b=>b.classList.remove('active'));
     const todosBtn=document.querySelector('.fbtn[onclick*="todos"]');
