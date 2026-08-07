@@ -14,7 +14,26 @@ bindCursor();
 
 window.addEventListener('scroll',()=>document.getElementById('nav').classList.toggle('scrolled',scrollY>50));
 
-function go(id){
+window.addEventListener('popstate',e=>{
+  const s=e.state;
+  if(!s){go('home',false);return;}
+  if(s.page==='proyecto'){openProyecto(s.id,false);}
+  else{go(s.page,false);}
+});
+
+window.addEventListener('DOMContentLoaded',()=>{
+  const hash=location.hash.replace('#','');
+  if(hash.startsWith('proyecto/')){
+    const id=hash.replace('proyecto/','');
+    openProyecto(id,false);
+  } else if(hash&&document.getElementById('page-'+hash)){
+    go(hash,false);
+  } else {
+    history.replaceState({page:'home'},'','#home');
+  }
+});
+
+function go(id, pushState=true){
   document.querySelectorAll('.page').forEach(p=>p.classList.remove('active'));
   document.getElementById('page-'+id).classList.add('active');
   scrollTo(0,0);
@@ -28,6 +47,7 @@ function go(id){
     if(todosBtn)todosBtn.classList.add('active');
     renderP('todos');
   }
+  if(pushState) history.pushState({page:id},'','#'+id);
   initReveal();
 }
 
@@ -355,9 +375,10 @@ function goBack(){
 // ── DETALLE DE PROYECTO ──
 let lbImages=[],lbIdx=0;
 
-function openProyecto(id){
+function openProyecto(id, pushState=true){
   const p=projects.find(x=>x.id===id);
   if(!p)return;
+  if(pushState) history.pushState({page:'proyecto',id},'','#proyecto/'+id);
   const page=document.getElementById('page-proyecto');
   page.innerHTML=`
     <div class="py-wrap">
