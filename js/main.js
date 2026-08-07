@@ -209,8 +209,8 @@ const projects=[
     year:'2026',m2:165,m2semi:42,estado:'En ejecución',
     autores:'TKF ARQUITECTOS',colaboradores:null,
     cat:'residencial',
-    cover:'images/viviendas/casa-grillo/1.png',
-    gallery:['images/viviendas/casa-grillo/1.png']
+    cover:'images/viviendas/casa-grillo/1.jpg',
+    gallery:['images/viviendas/casa-grillo/1.jpg','images/viviendas/casa-grillo/1.png']
   },
   {
     id:'casa-a-v',num:'020',name:'Casa A.V',
@@ -218,8 +218,8 @@ const projects=[
     year:'2026',m2:219,m2semi:34,estado:'En ejecución',
     autores:'TKF ARQUITECTOS',colaboradores:'Arq. Clara Gimenez Zapiola',
     cat:'residencial',
-    cover:'images/viviendas/casa-a-v/1.png',
-    gallery:['images/viviendas/casa-a-v/1.png','images/viviendas/casa-a-v/2.jpeg']
+    cover:'images/viviendas/casa-a-v/1.jpg',
+    gallery:['images/viviendas/casa-a-v/1.jpg','images/viviendas/casa-a-v/1.png','images/viviendas/casa-a-v/2.jpeg']
   },
   {
     id:'casa-l-o',num:'021',name:'Casa L.O',
@@ -227,8 +227,8 @@ const projects=[
     year:'2026',m2:205,m2semi:79,estado:'En ejecución',
     autores:'TKF ARQUITECTOS',colaboradores:null,
     cat:'residencial',
-    cover:'images/viviendas/casa-l-o/1.png',
-    gallery:['images/viviendas/casa-l-o/1.png','images/viviendas/casa-l-o/2.png']
+    cover:'images/viviendas/casa-l-o/1.jpg',
+    gallery:['images/viviendas/casa-l-o/1.jpg','images/viviendas/casa-l-o/1.png','images/viviendas/casa-l-o/2.png']
   },
   {
     id:'casa-robles',num:'022',name:'Casa Robles',
