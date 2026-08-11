@@ -139,7 +139,7 @@ const projects=[
   {
     id:'la-rural-arbol',num:'024',name:'La Rural Árbol',
     rubro:'Exposición',programa:'Instalación La Rural',
-    year:'2026',m2:null,estado:'Proyecto',
+    year:'2026',m2:75,estado:'Proyecto',
     autores:'TKF ARQUITECTOS',colaboradores:null,
     cat:'otros',
     cover:'images/otros/la-rural-arbol/1.PNG',gallery:['images/otros/la-rural-arbol/1.PNG','images/otros/la-rural-arbol/2.JPG','images/otros/la-rural-arbol/3.JPG']
