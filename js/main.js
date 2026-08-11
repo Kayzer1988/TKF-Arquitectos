@@ -165,7 +165,7 @@ const projects=[
   {
     id:'consultorios-del-carmen',num:'023',name:'Consultorios Del Carmen',
     rubro:'Salud',programa:'Consultorios médicos',
-    year:'2026',m2:null,estado:'Proyecto',
+    year:'2026',m2:136,estado:'Proyecto',
     autores:'TKF ARQUITECTOS',colaboradores:null,
     cat:'comercial',
     cover:'images/comercial/consultorios-del-carmen/1.jpeg',
