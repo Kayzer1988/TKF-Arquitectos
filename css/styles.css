@@ -115,7 +115,7 @@ footer{background:#0a0a09;border-top:1px solid var(--border);padding:28px 56px;d
   .manifiesto{grid-template-columns:1fr;padding-top:60px;padding-bottom:60px;gap:40px;}
   .page-top{padding:100px 20px 40px;flex-direction:column;align-items:flex-start;gap:12px;} .pt-count{display:none;}
   .filter-bar{padding:16px 20px;gap:6px;} .fbtn{padding:8px 14px;font-size:8.5px;}
-  .plist{padding:0 20px 60px;} .plist-item{grid-template-columns:40px 72px 1fr;gap:14px;} .pl-loc,.pl-year{display:none;} .pl-thumb{width:72px;height:48px;} .pl-name{font-size:17px;}
+  .plist{padding:0 20px 60px;} .plist-item{grid-template-columns:40px 72px 1fr;gap:14px;} .pl-loc,.pl-year,.pl-autores{display:none;} .pl-thumb{width:72px;height:48px;} .pl-name{font-size:17px;}
   .est-hero{grid-template-columns:1fr;min-height:auto;padding:100px 20px 0;}
   .est-left{border-right:none;border-bottom:1px solid var(--border);padding-right:0;padding-bottom:48px;} .est-right{height:56vw;}
   .equipo{padding:48px 20px 60px;} .eq-grid{grid-template-columns:1fr;gap:2px;}
