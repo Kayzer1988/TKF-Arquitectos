@@ -232,7 +232,7 @@ const projects=[
     year:'2026',m2:181,m2semi:63,estado:'Construida',
     autores:'TKF ARQUITECTOS',colaboradores:null,
     cat:'residencial',
-    cover:'',gallery:[]
+    cover:'images/viviendas/casa-highland/1.jpg',gallery:['images/viviendas/casa-highland/1.jpg']
   },
   {
     id:'casa-grillo',num:'019',name:'Casa Grillo',
