@@ -396,7 +396,6 @@ function openProyecto(id, pushState=true){
     <div class="py-wrap">
       <button class="py-back" onclick="goBack()">&#8592; Volver a proyectos</button>
       <div class="py-header reveal">
-        <div class="py-num">${p.num}</div>
         <h1 class="py-title">${p.name}</h1>
         <div class="py-ficha">
           <div class="py-campo"><span class="py-label">Rubro</span><span class="py-val">${p.rubro}</span></div>
