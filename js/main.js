@@ -142,7 +142,7 @@ const projects=[
     year:'2026',m2:null,estado:'Proyecto',
     autores:'TKF ARQUITECTOS',colaboradores:null,
     cat:'otros',
-    cover:'',gallery:[]
+    cover:'images/otros/la-rural-arbol/1.PNG',gallery:['images/otros/la-rural-arbol/1.PNG','images/otros/la-rural-arbol/2.JPG','images/otros/la-rural-arbol/3.JPG']
   },
   {
     id:'sigma-tecnica',num:'010',name:'Sigma Agro — Área Técnica y Marketing',
