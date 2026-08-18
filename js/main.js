@@ -457,8 +457,9 @@ if(ctForm){
       const res=await fetch(ctForm.action,{method:'POST',body:new FormData(ctForm),headers:{'Accept':'application/json'}});
       if(res.ok){
         ctForm.reset();
-        document.getElementById('f-success').style.display='block';
         document.getElementById('f-error').style.display='none';
+        const modal=document.getElementById('form-modal');
+        modal.style.display='flex';
         btn.textContent='Enviar consulta →';
         btn.disabled=false;
       } else {
