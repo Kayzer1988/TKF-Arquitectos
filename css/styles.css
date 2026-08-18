@@ -83,8 +83,9 @@ nav.scrolled{background:rgba(0,0,0,0.95);backdrop-filter:blur(20px);padding:22px
 .eq-card{background:#0d0d0b;padding:40px 32px;border-top:2px solid transparent;transition:border-color .3s;} .eq-card:hover{border-color:var(--green);}
 .eq-ini{font-size:80px;font-weight:700;line-height:1;color:rgba(255,255,255,1);margin-bottom:16px;letter-spacing:-.03em;}
 .eq-nombre{font-size:18px;font-weight:700;margin-bottom:4px;} .eq-rol{font-size:8px;letter-spacing:.22em;text-transform:uppercase;color:var(--green);margin-bottom:16px;} .eq-bio{font-size:12px;line-height:1.85;color:var(--gray);}
-.ct-wrap{display:grid;grid-template-columns:1fr 1fr;min-height:100vh;}
-.ct-left{background:#0a0a09;padding:140px 56px 80px;display:flex;flex-direction:column;justify-content:space-between;}
+.ct-wrap{display:grid;grid-template-columns:1fr 1fr;grid-template-rows:1fr auto;grid-template-areas:"header form" "data form";min-height:100vh;}
+.ct-header{grid-area:header;background:#0a0a09;padding:140px 56px 40px;}
+.ct-data{grid-area:data;background:#0a0a09;padding:0 56px 80px;}
 .ct-title{font-size:clamp(40px,6vw,80px);font-weight:700;line-height:.92;letter-spacing:-.03em;color:#ffffff;margin-bottom:28px;} .ct-thin{font-weight:700;color:#ffffff;} .ct-thin{font-weight:300;color:rgba(255,255,255,0.85);}
 .ct-desc{font-size:12px;line-height:1.9;color:rgba(255,255,255,0.75);max-width:340px;margin-bottom:56px;}
 .ct-data{display:flex;flex-direction:column;gap:28px;} .ct-item label{display:block;font-size:8px;letter-spacing:.3em;text-transform:uppercase;color:var(--green);margin-bottom:6px;}
@@ -121,7 +122,11 @@ footer{background:#0a0a09;border-top:1px solid var(--border);padding:28px 56px;d
   .est-hero{grid-template-columns:1fr;min-height:auto;padding:100px 20px 0;}
   .est-left{border-right:none;border-bottom:1px solid var(--border);padding-right:0;padding-bottom:48px;} .est-right{height:56vw;}
   .equipo{padding:48px 20px 60px;} .eq-grid{grid-template-columns:1fr;gap:2px;}
-  .ct-wrap{grid-template-columns:1fr;} .ct-left,.ct-right{padding:80px 20px 48px;} .f-row{grid-template-columns:1fr;}
+  .ct-wrap{display:flex;flex-direction:column;}
+  .ct-header{order:1;padding:80px 20px 40px;}
+  .ct-right{order:2;padding:40px 20px;}
+  .ct-data{order:3;padding:40px 20px 64px;}
+  .f-row{grid-template-columns:1fr;}
   footer{flex-direction:column;gap:10px;padding:20px;text-align:center;}
 }
 
