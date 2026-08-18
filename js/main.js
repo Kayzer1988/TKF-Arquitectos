@@ -445,6 +445,34 @@ function lbNav(dir){
   img.style.opacity='0';
   setTimeout(()=>{img.src=lbImages[lbIdx];img.style.opacity='1';},180);
 }
+// ── FORMULARIO DE CONTACTO ──
+const ctForm=document.getElementById('ct-form');
+if(ctForm){
+  ctForm.addEventListener('submit',async e=>{
+    e.preventDefault();
+    const btn=ctForm.querySelector('.f-btn');
+    btn.textContent='Enviando...';
+    btn.disabled=true;
+    try{
+      const res=await fetch(ctForm.action,{method:'POST',body:new FormData(ctForm),headers:{'Accept':'application/json'}});
+      if(res.ok){
+        ctForm.reset();
+        document.getElementById('f-success').style.display='block';
+        document.getElementById('f-error').style.display='none';
+        btn.textContent='Enviar consulta →';
+        btn.disabled=false;
+      } else {
+        throw new Error();
+      }
+    } catch {
+      document.getElementById('f-error').style.display='block';
+      document.getElementById('f-success').style.display='none';
+      btn.textContent='Enviar consulta →';
+      btn.disabled=false;
+    }
+  });
+}
+
 document.addEventListener('keydown',e=>{
   const lb=document.getElementById('pyLb');
   if(!lb||!lb.classList.contains('open'))return;

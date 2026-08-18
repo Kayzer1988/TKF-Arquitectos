@@ -159,13 +159,17 @@
     </div>
     <div class="ct-right">
       <div class="ct-form-label">— Envianos tu consulta</div>
-      <div class="f-row">
-        <div class="fg"><label>Nombre</label><input type="text" placeholder="Tu nombre"/></div>
-        <div class="fg"><label>Email</label><input type="email" placeholder="tu@email.com"/></div>
-      </div>
-      <div class="fg"><label>Tipo de proyecto</label><select><option value="" disabled selected>Selecion&#225; una opci&#243;n</option><option>Oficinas / Corporativo</option><option>Local Comercial</option><option>Hotel &amp; Hospitalidad</option><option>Interiorismo Comercial</option><option>Reforma Comercial</option></select></div>
-      <div class="fg"><label>Mensaje</label><textarea placeholder="Contanos tu idea..."></textarea></div>
-      <button class="f-btn">Enviar consulta →</button>
+      <form id="ct-form" action="https://formspree.io/f/mljroayd" method="POST">
+        <div class="f-row">
+          <div class="fg"><label>Nombre</label><input type="text" name="nombre" placeholder="Tu nombre" required/></div>
+          <div class="fg"><label>Email</label><input type="email" name="email" placeholder="tu@email.com" required/></div>
+        </div>
+        <div class="fg"><label>Tipo de proyecto</label><select name="tipo"><option value="" disabled selected>Selecion&#225; una opci&#243;n</option><option>Oficinas / Corporativo</option><option>Local Comercial</option><option>Hotel &amp; Hospitalidad</option><option>Interiorismo Comercial</option><option>Reforma Comercial</option></select></div>
+        <div class="fg"><label>Mensaje</label><textarea name="mensaje" placeholder="Contanos tu idea..."></textarea></div>
+        <button type="submit" class="f-btn">Enviar consulta →</button>
+        <p class="f-success" id="f-success" style="display:none">¡Mensaje enviado! Te contactamos pronto.</p>
+        <p class="f-error" id="f-error" style="display:none">Hubo un error. Intentá de nuevo.</p>
+      </form>
     </div>
   </div>
 </div>
