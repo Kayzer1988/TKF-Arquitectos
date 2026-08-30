@@ -115,8 +115,8 @@ const projects=[
     year:'2025',m2:800,estado:'Construido',
     autores:'TKF ARQUITECTOS',colaboradores:null,
     cat:'comercial',
-    cover:'images/comercial/sigma-agro/1.jpeg',
-    gallery:['images/comercial/sigma-agro/1.jpeg','images/comercial/sigma-agro/2.jpeg','images/comercial/sigma-agro/3.jpeg','images/comercial/sigma-agro/4.jpeg','images/comercial/sigma-agro/5.jpeg']
+    cover:'images/comercial/sigma-agro/1.jpg',
+    gallery:['images/comercial/sigma-agro/1.jpg','images/comercial/sigma-agro/2.jpg','images/comercial/sigma-agro/3.jpg','images/comercial/sigma-agro/4.jpg','images/comercial/sigma-agro/5.jpg','images/comercial/sigma-agro/6.jpg','images/comercial/sigma-agro/7.jpg']
   },
   {
     id:'tau',num:'008',name:'TAU Operaciones Logísticas',
@@ -150,8 +150,8 @@ const projects=[
     year:'2026',m2:300,estado:'Construido',
     autores:'TKF ARQUITECTOS',colaboradores:null,
     cat:'comercial',
-    cover:'images/comercial/sigma-agro-area-tecnica-y-area-marketing/1.jpeg',
-    gallery:['images/comercial/sigma-agro-area-tecnica-y-area-marketing/1.jpeg','images/comercial/sigma-agro-area-tecnica-y-area-marketing/2.jpeg','images/comercial/sigma-agro-area-tecnica-y-area-marketing/3.jpeg','images/comercial/sigma-agro-area-tecnica-y-area-marketing/4.jpeg','images/comercial/sigma-agro-area-tecnica-y-area-marketing/5.jpeg','images/comercial/sigma-agro-area-tecnica-y-area-marketing/6.jpg','images/comercial/sigma-agro-area-tecnica-y-area-marketing/7.jpg','images/comercial/sigma-agro-area-tecnica-y-area-marketing/8.png']
+    cover:'images/comercial/sigma-agro-area-tecnica-y-area-marketing/1.jpg',
+    gallery:['images/comercial/sigma-agro-area-tecnica-y-area-marketing/1.jpg','images/comercial/sigma-agro-area-tecnica-y-area-marketing/2.jpg','images/comercial/sigma-agro-area-tecnica-y-area-marketing/3.jpg','images/comercial/sigma-agro-area-tecnica-y-area-marketing/4.jpg','images/comercial/sigma-agro-area-tecnica-y-area-marketing/5.jpg','images/comercial/sigma-agro-area-tecnica-y-area-marketing/6.jpg','images/comercial/sigma-agro-area-tecnica-y-area-marketing/7.jpg','images/comercial/sigma-agro-area-tecnica-y-area-marketing/8.jpg','images/comercial/sigma-agro-area-tecnica-y-area-marketing/9.jpg']
   },
   {
     id:'sigma-gerenciales',num:'011',name:'Sigma Agro — Gerenciales',
@@ -159,8 +159,17 @@ const projects=[
     year:'2026',m2:580,estado:'Construido',
     autores:'TKF ARQUITECTOS',colaboradores:null,
     cat:'comercial',
-    cover:'images/comercial/sigma-agro-gerenciales/1.jpeg',
-    gallery:['images/comercial/sigma-agro-gerenciales/1.jpeg','images/comercial/sigma-agro-gerenciales/2.jpeg']
+    cover:'images/comercial/sigma-agro-gerenciales/1.jpg',
+    gallery:['images/comercial/sigma-agro-gerenciales/1.jpg','images/comercial/sigma-agro-gerenciales/2.jpg','images/comercial/sigma-agro-gerenciales/3.jpg','images/comercial/sigma-agro-gerenciales/4.jpg']
+  },
+  {
+    id:'sigma-auditorio',num:'012',name:'Sigma Agro — Auditorio',
+    rubro:'Agroquímicos',programa:'Auditorio corporativo',
+    year:'2026',m2:null,estado:'Construido',
+    autores:'TKF ARQUITECTOS',colaboradores:null,
+    cat:'comercial',
+    cover:'images/comercial/sigma-auditorio/1.jpg',
+    gallery:['images/comercial/sigma-auditorio/1.jpg','images/comercial/sigma-auditorio/2.jpg','images/comercial/sigma-auditorio/3.jpg','images/comercial/sigma-auditorio/4.jpg','images/comercial/sigma-auditorio/5.jpg']
   },
   {
     id:'consultorios-del-carmen',num:'023',name:'Consultorios Del Carmen',
