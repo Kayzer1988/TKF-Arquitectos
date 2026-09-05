@@ -142,7 +142,7 @@ const projects=[
     year:'2026',m2:75,estado:'Proyecto',
     autores:'TKF ARQUITECTOS',colaboradores:null,
     cat:'otros',
-    cover:'images/otros/corteva-stand-rural/1.PNG',gallery:['images/otros/corteva-stand-rural/1.PNG','images/otros/corteva-stand-rural/2.JPG','images/otros/corteva-stand-rural/3.JPG']
+    cover:'images/otros/corteva-stand-rural/1.png',gallery:['images/otros/corteva-stand-rural/1.png','images/otros/corteva-stand-rural/2.jpg','images/otros/corteva-stand-rural/3.jpg']
   },
   {
     id:'sigma-tecnica',num:'010',name:'Sigma Agro — Área Técnica y Marketing',
