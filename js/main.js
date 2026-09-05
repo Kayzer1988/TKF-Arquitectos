@@ -165,7 +165,7 @@ const projects=[
   {
     id:'sigma-auditorio',num:'012',name:'Sigma Agro — Auditorio',
     rubro:'Agroquímicos',programa:'Auditorio corporativo',
-    year:'2026',m2:null,estado:'Construido',
+    year:'2026',m2:109,estado:'Construido',
     autores:'TKF ARQUITECTOS',colaboradores:null,
     cat:'comercial',
     cover:'images/comercial/sigma-auditorio/1.jpg',
