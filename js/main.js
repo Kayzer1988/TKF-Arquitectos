@@ -291,7 +291,7 @@ const projects=[
     'images/carrousel/2.jpg',
     'images/carrousel/3.jpg',
     'images/carrousel/4.jpg',
-    'images/carrousel/5.png',
+    'images/carrousel/5.jpg',
     'images/carrousel/6.jpg',
     'images/carrousel/7.jpg',
     'images/carrousel/8.jpg'
