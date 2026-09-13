@@ -218,6 +218,7 @@ footer{background:#0a0a09;border-top:1px solid var(--border);padding:28px 56px;d
 
 /* ── DETALLE DE PROYECTO ── */
 .py-wrap{padding:148px 56px 80px;max-width:1400px;margin:0 auto;}
+.py-nav{display:flex;justify-content:space-between;align-items:center;margin-bottom:0;}
 .py-back{
   background:none;border:none;color:var(--green);
   font-size:10px;letter-spacing:.2em;text-transform:uppercase;
@@ -225,6 +226,8 @@ footer{background:#0a0a09;border-top:1px solid var(--border);padding:28px 56px;d
   transition:opacity .2s;font-family:inherit;
 }
 .py-back:hover{opacity:.65;}
+.py-next{background:none;border:none;color:var(--green);font-size:10px;letter-spacing:.2em;text-transform:uppercase;cursor:pointer;padding:0;transition:opacity .2s;font-family:inherit;}
+.py-next:hover{opacity:.65;}
 .py-num{font-size:9px;letter-spacing:.3em;color:var(--green);margin-bottom:10px;text-transform:uppercase;}
 .py-title{
   font-size:clamp(32px,5vw,68px);font-weight:700;

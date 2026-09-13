@@ -172,6 +172,15 @@ const projects=[
     gallery:['images/comercial/sigma-auditorio/1.jpg','images/comercial/sigma-auditorio/2.jpg','images/comercial/sigma-auditorio/3.jpg','images/comercial/sigma-auditorio/4.jpg','images/comercial/sigma-auditorio/5.jpg']
   },
   {
+    id:'pebeta-farm-to-table',num:'025',name:'Pebeta Farm To Table',
+    rubro:'Gastronomía',programa:'Restaurante + Self Service + Omakase',
+    year:'2026',m2:850,estado:'Anteproyecto',
+    autores:'TKF ARQUITECTOS',colaboradores:null,
+    cat:'comercial',
+    cover:'images/comercial/pebeta-farm-to-table/1.jpg',
+    gallery:['images/comercial/pebeta-farm-to-table/1.jpg','images/comercial/pebeta-farm-to-table/2.jpg','images/comercial/pebeta-farm-to-table/3.jpg','images/comercial/pebeta-farm-to-table/4.jpg']
+  },
+  {
     id:'consultorios-del-carmen',num:'023',name:'Consultorios Del Carmen',
     rubro:'Salud',programa:'Consultorios médicos',
     year:'2026',m2:136,estado:'Proyecto',
@@ -396,6 +405,18 @@ function goBack(){
 // ── DETALLE DE PROYECTO ──
 let lbImages=[],lbIdx=0;
 
+function getNextProject(id){
+  const catOrder={comercial:0,residencial:1,otros:2};
+  const f=(lastCat==='todos'?projects:projects.filter(p=>p.cat===lastCat))
+    .slice().sort((a,b)=>{
+      if(lastCat==='todos'){const co=catOrder[a.cat]-catOrder[b.cat];if(co!==0)return co;}
+      return parseInt(a.num)-parseInt(b.num);
+    });
+  const idx=f.findIndex(p=>p.id===id);
+  if(idx===-1||f.length<2)return null;
+  return f[(idx+1)%f.length];
+}
+
 function openProyecto(id, pushState=true){
   const p=projects.find(x=>x.id===id);
   if(!p)return;
@@ -403,7 +424,10 @@ function openProyecto(id, pushState=true){
   const page=document.getElementById('page-proyecto');
   page.innerHTML=`
     <div class="py-wrap">
-      <button class="py-back" onclick="goBack()">&#8592; Volver a proyectos</button>
+      <div class="py-nav">
+        <button class="py-back" onclick="goBack()">&#8592; Volver a proyectos</button>
+        ${(()=>{const nx=getNextProject(p.id);return nx?`<button class="py-next" onclick="openProyecto('${nx.id}')">Siguiente proyecto &#8594;</button>`:''})()}
+      </div>
       <div class="py-header reveal">
         <h1 class="py-title">${p.name}</h1>
         <div class="py-ficha">
