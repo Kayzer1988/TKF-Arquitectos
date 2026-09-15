@@ -218,7 +218,9 @@ footer{background:#0a0a09;border-top:1px solid var(--border);padding:28px 56px;d
 
 /* ── DETALLE DE PROYECTO ── */
 .py-wrap{padding:148px 56px 80px;max-width:1400px;margin:0 auto;}
-.py-nav{display:flex;justify-content:space-between;align-items:center;margin-bottom:0;}
+.py-nav{display:flex;justify-content:space-between;align-items:center;margin-bottom:0;width:100%;}
+.py-nav .py-back,.py-nav .py-next{white-space:nowrap;width:auto;flex-shrink:0;}
+.btn-short{display:none;}
 .py-back{
   background:none;border:none;color:var(--green);
   font-size:10px;letter-spacing:.2em;text-transform:uppercase;
@@ -311,6 +313,8 @@ footer{background:#0a0a09;border-top:1px solid var(--border);padding:28px 56px;d
 
 @media(max-width:900px){
   .py-wrap{padding:110px 20px 48px;}
+  .btn-full{display:none;}
+  .btn-short{display:inline;}
   .py-ficha{grid-template-columns:1fr 1fr;}
   .py-campo:nth-child(3n){border-right:1px solid var(--border);}
   .py-campo:nth-child(2n){border-right:none;}

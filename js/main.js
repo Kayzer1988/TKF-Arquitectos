@@ -424,9 +424,9 @@ function openProyecto(id, pushState=true){
   const page=document.getElementById('page-proyecto');
   page.innerHTML=`
     <div class="py-wrap">
-      <div class="py-nav">
-        <button class="py-back" onclick="goBack()">&#8592; Volver a proyectos</button>
-        ${(()=>{const nx=getNextProject(p.id);return nx?`<button class="py-next" onclick="openProyecto('${nx.id}')">Siguiente proyecto &#8594;</button>`:''})()}
+      <div style="position:relative;height:24px;margin-bottom:32px;">
+        <button class="py-back" onclick="goBack()" style="position:absolute;left:0;top:0;">&#8592; Volver a proyectos</button>
+        ${(()=>{const nx=getNextProject(p.id);return nx?`<button class="py-next" onclick="openProyecto('${nx.id}')" style="position:absolute;right:0;top:0;">Siguiente proyecto &#8594;</button>`:''})()}
       </div>
       <div class="py-header reveal">
         <h1 class="py-title">${p.name}</h1>
