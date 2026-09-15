@@ -172,13 +172,13 @@ const projects=[
     gallery:['images/comercial/sigma-auditorio/1.jpg','images/comercial/sigma-auditorio/2.jpg','images/comercial/sigma-auditorio/3.jpg','images/comercial/sigma-auditorio/4.jpg','images/comercial/sigma-auditorio/5.jpg']
   },
   {
-    id:'pebeta-farm-to-table',num:'025',name:'Pebeta Farm To Table',
+    id:'restaurante-farm-to-table',num:'025',name:'Restaurante Farm To Table',
     rubro:'Gastronomía',programa:'Restaurante + Self Service + Omakase',
     year:'2026',m2:850,estado:'Anteproyecto',
     autores:'TKF ARQUITECTOS',colaboradores:null,
     cat:'comercial',
-    cover:'images/comercial/pebeta-farm-to-table/1.jpg',
-    gallery:['images/comercial/pebeta-farm-to-table/1.jpg','images/comercial/pebeta-farm-to-table/2.jpg','images/comercial/pebeta-farm-to-table/3.jpg','images/comercial/pebeta-farm-to-table/4.jpg']
+    cover:'images/comercial/restaurante-farm-to-table/1.jpg',
+    gallery:['images/comercial/restaurante-farm-to-table/1.jpg','images/comercial/restaurante-farm-to-table/2.jpg','images/comercial/restaurante-farm-to-table/3.jpg','images/comercial/restaurante-farm-to-table/4.jpg']
   },
   {
     id:'consultorios-del-carmen',num:'023',name:'Consultorios Del Carmen',
